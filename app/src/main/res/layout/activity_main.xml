@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="240dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:textAllCaps="false"
+        android:text="线下训练"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="database"
+        android:color="#ff232d"
+        />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="60dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="skipLocation"
+        android:text="线上定位"
+        tools:ignore="HardcodedText" />
+
+
+</LinearLayout>

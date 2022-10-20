@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/timer_1"
+        android:textAllCaps="false"
+        android:text="采集ap1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="collectap1"
+        android:color="#ff232d"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="结束ap1"
+        android:onClick="end1"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/button3"
+        android:text="采集ap2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="collectap2"/>
+    <Button
+        android:id="@+id/button4"
+        android:text="结束ap2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="end2" />
+    <Button
+        android:id="@+id/button5"
+        android:text="采集ap3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="collectap3"/>
+    <Button
+        android:id="@+id/button6"
+        android:text="结束ap3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="end3" />
+
+    <TableRow
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button6"
+        android:layout_marginTop="13dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="坐标：" />
+
+        <Space
+            android:layout_width="11dp"
+            android:layout_height="30dp" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="318dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+
+    </TableRow>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="locate"
+        android:text="定位" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        android:onClick="back"/>
+
+
+</LinearLayout>

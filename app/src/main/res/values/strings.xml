@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MywifiLocation</string>
+    <string name="ap1">采集Ap1</string>
+    <string name="commit">录入该位置指纹</string>
+    <string name="end">结束</string>
+    <string name="采集ap1" />
+</resources>
